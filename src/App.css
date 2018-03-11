@@ -906,3 +906,16 @@ font-family: 'Source Sans Pro', sans-serif;
         background: #fdd214;
     }
 }
+.scroll-down{
+  background-color: Transparent;
+    color:#e6e7e9;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+
+  margin-top: 40vh;
+  display: flex;
+  align-items: center;
+  size: 200px;
+}

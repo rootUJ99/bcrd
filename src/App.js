@@ -125,7 +125,11 @@ class App extends Component {
               </section>
               <div className="line"></div>
             </section>
-          <NavLink to="/#scrollup" scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}> <i className="fas fa-angle-down icon-size "></i> </NavLink>
+          <button className="scroll-down">
+
+            <NavLink to="/#scrollup" scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}> <i className="fas fa-angle-down icon-size "></i> </NavLink>
+
+          </button>
         </header>
         
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Note.css';
 const Note =()=>(
-    <div id="scrollupsss" className="note-body">
+    <div id="scrollup" className="note-body">
         <div className="notebook">
             <p>So it's your birthday all again and you haven't grown even a centimeter :p </p>
             <p>Well favdi i must say its been quite years now since we are friends i still remember days
